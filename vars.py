@@ -10,10 +10,10 @@ BOT_TOKEN = environ.get("BOT_TOKEN", "8341966200:AAEWOwr0Xh51z505hg3DacP8mpoYLYp
 OWNER = int(environ.get("OWNER", "7565361272"))
 CREDIT = environ.get("CREDIT", "𓍯𝙎𝙪𝙟𝙖𝙡⚝")
 
-TOTAL_USER = os.environ.get('TOTAL_USERS', '7114926879').split(',')
+TOTAL_USER = os.environ.get('TOTAL_USERS', '7565361272').split(',')
 TOTAL_USERS = [int(user_id) for user_id in TOTAL_USER]
 
-AUTH_USER = os.environ.get('AUTH_USERS', '7114926879').split(',')
+AUTH_USER = os.environ.get('AUTH_USERS', '7565361272').split(',')
 AUTH_USERS = [int(user_id) for user_id in AUTH_USER]
 if int(OWNER) not in AUTH_USERS:
     AUTH_USERS.append(int(OWNER))
